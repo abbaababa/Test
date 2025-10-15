@@ -2,7 +2,7 @@ name: CI 测试流程
 
 on:
   push:
-    branches: [ main ]  # 当 main 分支有新提交时自动触发
+    branches: [ master ]  # 当 main 分支有新提交时自动触发
 
 jobs:
   build-test:
